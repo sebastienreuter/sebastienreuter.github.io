@@ -66,12 +66,14 @@ body {
   top: -100px;
   display: none;
 }
+
 #travaux {
   position: absolute;
   left: 519px;
   top: -300;
   display: none;
 }
+
 /*----------------------------------------VOITURE ROUGE-------------------------------------*/
 
 #vVoitureMoi {
@@ -89,6 +91,7 @@ body {
   left: 7%;
   top: -600px
 }
+
 /*------------------------------------------ ANIMATION VOITURE BLEU 2 DROITE ---------------------------------------*/
 
 #vVoitureBleu2 {
@@ -97,6 +100,7 @@ body {
   left: 30%;
   top: -1200px;
 }
+
 /*------------------------------------------ ANIMATION VOITURE  BLEU 2 DROITE ---------------------------------------*/
 
 #vVoitureBleu3 {
@@ -104,8 +108,9 @@ body {
   position: absolute;
   left: 19.5%;
   top: -1900px;
-  
+
 }
+
 /*------------------------------------------BOUTON START----------------------------------*/
 
 #start {
@@ -147,8 +152,6 @@ body {
 
 }
 
-
-
 /*-----------------------BANDEAU NOIR DROITE ECRAN POUR LOGO -----------------------------*/
 #barrelogos {
   position: absolute;
@@ -162,6 +165,7 @@ body {
   ;
 
 }
+/*-------------------------------BANDEAU DE COMPETENCES----------------------------*/
 
 #competences {
   position: absolute;
@@ -177,9 +181,9 @@ body {
   box-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
 }
 
-/*---------------------------------------------RESTART-------------------------------------------------*/
+/*---------------------------------------------BOUTTON RESTART-------------------------------------------------*/
 
-#bouttonRestart{
+#bouttonRestart {
   position: absolute;
   left: 92%;
   top: 85%;
@@ -213,7 +217,7 @@ body {
   box-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
 }
 
-/*---------------------------------------------SCORE-------------------------------------------*/
+/*---------------------------------------------SCORE / et style score-------------------------------------------*/
 
 #score {
   position: absolute;
@@ -274,7 +278,7 @@ a {
 
 }
 
-/*---------------------------------LIEN GITHUB-----------------------------------*/
+/*---------------------------------LIEN LINKEDIN-----------------------------------*/
 
 #linkedin {
   position: absolute;
