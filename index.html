@@ -1,0 +1,140 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+
+
+    <title> jeu CV sebastien reuter 2019</title>
+
+
+
+</head>
+</head>
+
+<body>
+
+    <!--------------------------------------------------------------------------------------------------------
+------------------------------------BOUTON RESTART JAVASCRIPT----------------------------------------------
+---------------------------------------------------------------------------------------------------------->
+
+
+    <button id="bouttonRestart" onclick="javascript:location.reload()" ;>REJOUER</button>
+
+
+    <!---------------------------------------------------------------------------------------------------------
+--------------------------------------- MON NOM AU DE PAGE------------------------------------------------
+----------------------------------------------------------------------------------------------------------->
+
+    <div id="myname">
+        <h1>Sébastien Reuter Jeu CV </h1>
+    </div>
+    <!----------------------------------------------------------------------------------------------------------
+-----------------------------------------------INFO SCORE---------------------------------------------------
+------------------------------------------------------------------------------------------------------------>
+
+
+    <div id="score1">POINTS</div>
+    <form>
+        <input id="score" type="button" name="tableau score" value="0">
+
+    </form>
+    <!---------------------------------------------------------------------------------------------------------
+----------------------------------------------------REGLES DU JEU------------------------------------------
+----------------------------------------------------------------------------------------------------------->
+    <div id="regles">
+        <p>REGLES DU JEU </br>
+            POUR DECOUVRIR MES COMPETENCES </br>ET MON CV TU DEVRAS RESTER LE PLUS </br>LONGTEMPS POSSIBLE SUR LA ROUTE </br>SANS TOUCHER LES AUTRES VEHICULES,</br>NI LES ROCHERS ,NI LA BARRIERE,</br>ET ATTEINDRE LES 10000 PTS .</br>POUR CELA TU POURRAS TE DEPLACER </br> DE GAUCHE A DROITE A L'AIDE DES </br>TOUCHES DIRECTIONNELLES DU CLAVIER.</br>BONNE CHANCE !!</br> POUR COMMENCER CLIQUE SUR "DEMARRER" !</br>
+        </p>
+    </div>
+
+    <!----------------------------------------------------------------------------------------------------------
+-------------------------------- FOND ROUTE / MA VOITURE / VOITURES BLEU-----------------------------------
+------------------------------------------------------------------------------------------------------------>
+    <div id="cadreroute"><img id="fond1" src="img/rue2.png"></div>
+    
+    <img id="vVoitureBleu1" src="img/voiturebleu.png">
+
+    <img id="vVoitureBleu2" src="img/voiturebleu.png">
+
+    <img id="vVoitureBleu3" src="img/voiturebleu.png">
+
+    <img id="vVoitureMoi" src="img/voiture.png">
+
+
+    <!-----------------------------------------------------------------------------------------------------------
+     ---------------BARRE LOGO / COMPETENCES / LINKEDIN-----------------------
+     ----------------------------------------------------------------------------------------------------------------->
+    
+     <div id="linkedin"><a href="https://www.linkedin.com/in/s%C3%A9bastien-reuter/" target="_blank"><img src="img/linkedin.png">
+       </div></a>
+    <div id="barrelogos"></div>
+    <div id="competences">COMPETENCES PROGRAMMATION</div>
+
+
+    <!----------------BOUTON START ET SON MOTEUR AU CLICK SUR START----------->
+
+
+
+    <div id="start"><a href="#" onclick="moteur()">"DEMARRER"</a></div>
+
+
+
+    <!-------------------LIEN MON CV PDF TELECHARGEABLE------------------------>
+
+    <div id="moncv"><a href="sebastienCV.pdf" target="_blank">Mon CV</a></div>
+
+    <!---------------------------LIEN DE CONTACT----------------->
+
+    <div id="contact"><a href="img/contact.PNG" target="_blank">Contact</a></div>
+
+
+    <!---------------LOGO HTML CSS JS ANGULAR MONGO METEOR AJAX------------>
+
+
+    <div id="icone1"><img src="img/html.png"></div>
+    <div id="icone2"><img src="img/css.png"></div>
+    <div id="icone3"><img src="img/js.png"></div>
+    <div id="icone4"><img src="img/angularjs.png"></div>
+    <div id="icone5"><img src="img/mongodb.png"></div>
+    <div id="icone6"><img src="img/nodejs.png"></div>
+    <div id="icone7"><img src="img/jquery.png"></div>
+    <div id="icone8"><img src="img/meteor.png"></div>
+
+
+
+
+
+    <!--------------------------------ROCHER ET BARRIERE DE TRAVAUX---------------------------------->
+
+    <div id="rocher"><img src="img/rocher.png" alt="rocher"></div>
+
+    <div id="travaux"><img src="img/travaux.png" alt="travaux"></div>
+
+    <!---------------------------------YOU WIN / YOU LOSE -------------------------------------------------------->
+
+    <div id="youwin"><img src="img/youwin.png"></div>
+    <div id="youlose"><img src="img/youlose.png"></div>
+
+
+
+    <!------------------------------AUDIO MOTEUR AU LANCEMENT DE LA PAGE ------------------------->
+
+    <script>
+        function moteur() {
+            var moteur = new Audio();
+            moteur.src = "moteur.mp3";
+            moteur.play();
+        }
+       
+    </script>
+
+
+
+</body>
+
+</html>

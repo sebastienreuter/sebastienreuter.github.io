@@ -1,0 +1,341 @@
+/*-----------------------------------------------FOND D'ECRAN---------------------------------------*/
+
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+
+body {
+
+  background: url('img/fondperso6.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+
+}
+
+/*---------------------------MON NOM---------------------------------*/
+
+#myname {
+  position: absolute;
+  top: -5%;
+  left: 49%;
+  font-size: 30px;
+  width: 1000px;
+  font-family: cursive;
+  color: rgb(31, 140, 173);
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+
+}
+
+
+#regles {
+  position: absolute;
+  color: whitesmoke;
+  left: 8%;
+  top: 2%;
+  font-family: cursive;
+}
+
+/*-------------------------------------------FOND ROUTE et ANIMATION ROUTE---------------------------------------*/
+#cadreroute {
+  width: 700px;
+  height: 1000px;
+  background-color: blanchedalmond;
+  overflow: hidden;
+  position: absolute;
+  display: none;
+}
+
+#fond1 {
+  left: 0%;
+  position: relative;
+  display: none;
+
+}
+
+
+/*--------------------------------------ROCHER--------------------------------*/
+#rocher {
+  position: absolute;
+  left: 0%;
+  top: -100px;
+  display: none;
+}
+#travaux {
+  position: absolute;
+  left: 519px;
+  top: -300;
+  display: none;
+}
+/*----------------------------------------VOITURE ROUGE-------------------------------------*/
+
+#vVoitureMoi {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 19.4%;
+  display: none;
+}
+
+/*------------------------------------------ ANIMATION VOITURE BLEU 1 GAUCHE ---------------------------------------*/
+#vVoitureBleu1 {
+  display: none;
+  position: absolute;
+  left: 7%;
+  top: -600px
+}
+/*------------------------------------------ ANIMATION VOITURE BLEU 2 DROITE ---------------------------------------*/
+
+#vVoitureBleu2 {
+  display: none;
+  position: absolute;
+  left: 30%;
+  top: -1200px;
+}
+/*------------------------------------------ ANIMATION VOITURE  BLEU 2 DROITE ---------------------------------------*/
+
+#vVoitureBleu3 {
+  display: none;
+  position: absolute;
+  left: 19.5%;
+  top: -1900px;
+  
+}
+/*------------------------------------------BOUTON START----------------------------------*/
+
+#start {
+
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  width: 180px;
+  height: 60px;
+  border: 2px solid whitesmoke;
+  border-radius: 15%;
+  text-align: center;
+  left: 12%;
+  top: 90%;
+  padding-top: 5px;
+  font-family: cursive;
+  font-size: 28px;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+  box-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+
+/*-----------------------------------YOUWIN / YOULOSE---------------------------------*/
+#youwin {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  display: none;
+
+}
+
+#youlose {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  display: none;
+
+}
+
+
+
+/*-----------------------BANDEAU NOIR DROITE ECRAN POUR LOGO -----------------------------*/
+#barrelogos {
+  position: absolute;
+  width: 1220px;
+  height: 100px;
+  background-color: rgb(0, 0, 0);
+  top: 90%;
+  left: 45.7%;
+  display: none;
+  box-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+  ;
+
+}
+
+#competences {
+  position: absolute;
+  color: whitesmoke;
+  border: 2px solid black;
+  background-color: black;
+  border-radius: 10px;
+  left: 65%;
+  top: 86%;
+  padding: 2px;
+  display: none;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+  box-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+/*---------------------------------------------RESTART-------------------------------------------------*/
+
+#bouttonRestart{
+  position: absolute;
+  left: 92%;
+  top: 85%;
+  border: 2px solid whitesmoke;
+  background-color: rgb(3, 7, 12);
+  border-radius: 10px;
+  font-family: cursive;
+  width: 80px;
+  height: 30px;
+  text-align: center;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+  box-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+  color: whitesmoke;
+}
+
+/*--------------------------------- Les deux bouton pour acces cv et contact----------------------------------------*/
+
+
+#moncv {
+  position: absolute;
+  border: 2px solid whitesmoke;
+  background-color: rgb(3, 7, 12);
+  border-radius: 10px;
+  left: 90%;
+  top: 12%;
+  font-family: cursive;
+  width: 80px;
+  height: 30px;
+  text-align: center;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+  box-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+/*---------------------------------------------SCORE-------------------------------------------*/
+
+#score {
+  position: absolute;
+  left: 69.2%;
+  top: 17%;
+  font-family: cursive;
+  border: 2px solid whitesmoke;
+  border-radius: 15px;
+  text-align: center;
+  width: 80px;
+  background-color: rgb(3, 7, 12);
+  color: blanchedalmond;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+  box-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+
+}
+
+#score1 {
+  position: absolute;
+  left: 69%;
+  top: 13%;
+  font-family: cursive;
+  border: 2px solid whitesmoke;
+  border-radius: 15px;
+  text-align: center;
+  width: 80px;
+  background-color: rgb(3, 7, 12);
+  color: blanchedalmond;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+  box-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+
+}
+
+/*-----------------------------------CONTACT PDF----------------------------*/
+
+#contact {
+  position: absolute;
+  border: 2px solid whitesmoke;
+  background-color: rgb(3, 7, 12);
+  border-radius: 10px;
+  font-family: cursive;
+  width: 80px;
+  height: 30px;
+  text-align: center;
+  top: 12%;
+  left: 50%;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+  box-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+
+}
+
+
+/*-------------------- COULEUR ECRITURE CV ET CONTACT ET POINTS-------------------------------*/
+
+a {
+  color: whitesmoke;
+  text-decoration: none;
+
+}
+
+/*---------------------------------LIEN GITHUB-----------------------------------*/
+
+#linkedin {
+  position: absolute;
+  left: 46%;
+  top: 2%;
+}
+
+/*---------------------------LOGOS COMPETENCES PROGRAMMATION--------------------------------*/
+
+#icone1 {
+  position: absolute;
+  top: 91%;
+  left: 45.7%;
+  display: none;
+}
+
+#icone2 {
+  position: absolute;
+  top: 91%;
+  left: 53%;
+  display: none;
+}
+
+#icone3 {
+  position: absolute;
+  top: 91%;
+  left: 59%;
+  display: none;
+}
+
+#icone4 {
+  position: absolute;
+  top: 91%;
+  left: 66%;
+  display: none;
+}
+
+#icone5 {
+  position: absolute;
+  top: 91.5%;
+  left: 73%;
+  display: none;
+}
+
+#icone6 {
+  position: absolute;
+  top: 91%;
+  left: 81%;
+  display: none;
+}
+
+#icone7 {
+  position: absolute;
+  top: 91.2%;
+  left: 89%;
+  display: none;
+}
+
+#icone8 {
+  position: absolute;
+  top: 91%;
+  left: 96%;
+  display: none;
+}
