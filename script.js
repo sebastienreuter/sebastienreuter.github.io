@@ -27,7 +27,7 @@ window.addEventListener('load', function () {
 
     var monScore = function () {
         monInterval = setInterval(function () {
-            score += 1000;
+            score += 200;
             document.getElementById("score").value = score;
         }, 1500);
     };
