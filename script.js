@@ -21,7 +21,7 @@ window.addEventListener('load', function () {
     var tailleRoute = 700;
     var tailleVoiture = 125;
     var monInterval;
-    
+
 
     //---------------------GESTION DU SCORE---------------------------------
 
@@ -49,12 +49,12 @@ window.addEventListener('load', function () {
                 case 37:
 
                     if (xRoute <= positionVoitureRouge) {
-                       
+
                         positionVoitureRouge -= 20;
 
                     }
                     voitureRouge.style.left = positionVoitureRouge + "px";
-                   
+
                     break;
 
                 case 39:
@@ -67,10 +67,10 @@ window.addEventListener('load', function () {
             }
         };
 
-        
-       
+
+
         // ----------------------------AFFICHAGE LOGOS COMPETENCE TOUS LES 1000PTS -----------------------------------------//
-       
+
 
 
         if (score == 1000) {
@@ -109,9 +109,9 @@ window.addEventListener('load', function () {
 
             }, 1000);
         };
-        
+
         //----------------------------------- COLLISIONS --------------------------------------------------
-        
+
         var coorVoitureRouge = voitureRouge.getBoundingClientRect();
         var coorVoitureBleu1 = VoitureBleu1.getBoundingClientRect();
         var coorVoitureBleu2 = VoitureBleu2.getBoundingClientRect();
@@ -159,9 +159,9 @@ window.addEventListener('load', function () {
 
     animation();
 
-    
+
     //---------- AU CLICK SUR PLAY! LANCE ANIMATION ---------------------------
-    
+
 
     boutonStart.addEventListener("click", function () {
         fenetreDeJeu.style.display = "none";
@@ -183,7 +183,7 @@ window.addEventListener('load', function () {
 
     });
 
-   
+
 });
 
 //--------------------------ANIMATION ROUTE / VOITURES / ROCHER ET BARRIERE --------------------------------------------------
@@ -193,7 +193,7 @@ window.addEventListener('load', function () {
     var monImage = document.getElementById('fond1');
     monImage.style.top = '-18040px';
     var topImage = parseInt(monImage.style.top);
-    
+
     var monImageVoitureBleu1 = document.getElementById('vVoitureBleu1');
     monImageVoitureBleu1.style.top = '-600px';
     var topImageVoitureBleu1 = parseInt(monImageVoitureBleu1.style.top);
@@ -222,7 +222,7 @@ window.addEventListener('load', function () {
         }
         topImage += 10;
         monImage.style.top = topImage + 'px';
-        
+
         if (topImageVoitureBleu1 == 2300) {
             topImageVoitureBleu1 = -600;
         }
@@ -234,7 +234,7 @@ window.addEventListener('load', function () {
         }
         topImageVoitureBleu2 += 5;
         monImageVoitureBleu2.style.top = topImageVoitureBleu2 + 'px';
-        
+
         if (topImageVoitureBleu3 == 2900) {
             topImageVoitureBleu3 = -1800;
         }
@@ -258,4 +258,4 @@ window.addEventListener('load', function () {
 
     animate();
 });
-//---------------------------------------- FIN ------------------------------------------------
+//----------------------------------------------------------------------------------------
