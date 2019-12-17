@@ -2,11 +2,11 @@
 
 window.addEventListener('load', function () {
 
-    //---------------------------DECLARATION DES VARIABLES--------------------------------
+    // DECLARATION DES VARIABLES
 
     var voitureRouge = window.document.getElementById('vVoitureMoi');
     var boutonStart = document.getElementById('start');
-    var fenetreDeJeu = document.getElementById('fond1');
+    var fenetreDeJeu = document.getElementById('fondroute');
     var contenantRoute = document.getElementById('cadreroute');
     var bandeau = document.getElementById('barrelogos');
     var caillou = document.getElementById('rocher');
@@ -23,7 +23,7 @@ window.addEventListener('load', function () {
     var monInterval;
 
 
-    //---------------------GESTION DU SCORE---------------------------------
+    // GESTION DU SCORE
 
     var monScore = function () {
         monInterval = setInterval(function () {
@@ -37,7 +37,7 @@ window.addEventListener('load', function () {
     window.requestAnimationFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame ||
         window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
 
-    //---------------------ACTION TOUCHES DIRECTIONNELLES-------------------------------------
+    // ACTION TOUCHES DIRECTIONNELLES
 
     var animation = function () {
 
@@ -69,7 +69,7 @@ window.addEventListener('load', function () {
 
 
 
-        // ----------------------------AFFICHAGE LOGOS COMPETENCE TOUS LES 1000PTS -----------------------------------------//
+        //AFFICHAGE LOGOS COMPETENCE TOUS LES 1000PTS 
 
 
 
@@ -102,7 +102,7 @@ window.addEventListener('load', function () {
 
             clearInterval(monInterval);
 
-            //---------------- OUVERTURE DU CV JUSTE APRES LE YOU WIN --------------------------------------    
+        // OUVERTURE DU CV JUSTE APRES LE YOU WIN     
 
             setTimeout(function () {
                 open('img/cvsebastien.png');
@@ -110,7 +110,7 @@ window.addEventListener('load', function () {
             }, 1000);
         };
 
-        //----------------------------------- COLLISIONS --------------------------------------------------
+        // COLLISIONS 
 
         var coorVoitureRouge = voitureRouge.getBoundingClientRect();
         var coorVoitureBleu1 = VoitureBleu1.getBoundingClientRect();
@@ -160,7 +160,7 @@ window.addEventListener('load', function () {
     animation();
 
 
-    //---------- AU CLICK SUR PLAY! LANCE ANIMATION ---------------------------
+    //AU CLICK SUR PLAY! LANCE ANIMATION 
 
 
     boutonStart.addEventListener("click", function () {
@@ -186,11 +186,11 @@ window.addEventListener('load', function () {
 
 });
 
-//--------------------------ANIMATION ROUTE / VOITURES / ROCHER ET BARRIERE --------------------------------------------------
+//ANIMATION ROUTE / VOITURES / ROCHER ET BARRIERE 
 
 window.addEventListener('load', function () {
 
-    var monImage = document.getElementById('fond1');
+    var monImage = document.getElementById('fondroute');
     monImage.style.top = '-18040px';
     var topImage = parseInt(monImage.style.top);
 
@@ -258,4 +258,3 @@ window.addEventListener('load', function () {
 
     animate();
 });
-//----------------------------------------------------------------------------------------

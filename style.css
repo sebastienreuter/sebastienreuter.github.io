@@ -1,4 +1,4 @@
-/*-----------------------------------------------FOND D'ECRAN---------------------------------------*/
+/* FOND D'ECRAN */
 
 html,
 body {
@@ -18,15 +18,15 @@ body {
 
 }
 
-/*---------------------------MON NOM---------------------------------*/
+/* MON NOM */
 
 #myname {
   position: absolute;
   top: -5%;
-  left: 49%;
+  left: 50%;
   font-size: 30px;
   width: 1000px;
-  font-family: cursive;
+  font-family: cursive, Arial, Helvetica, sans-serif;
   color: rgb(31, 140, 173);
   text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
 
@@ -38,10 +38,11 @@ body {
   color: whitesmoke;
   left: 8%;
   top: 2%;
-  font-family: cursive;
+  font-family: cursive, Arial, Helvetica, sans-serif;
 }
 
-/*-------------------------------------------FOND ROUTE et ANIMATION ROUTE---------------------------------------*/
+/* FOND ROUTE ET CADRE FOND ROUTE */
+
 #cadreroute {
   width: 700px;
   height: 1000px;
@@ -51,15 +52,106 @@ body {
   display: none;
 }
 
-#fond1 {
+#fondroute {
   left: 0%;
   position: relative;
   display: none;
 
 }
 
+/*BOUTON START*/
 
-/*--------------------------------------ROCHER--------------------------------*/
+#start {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  width: 180px;
+  height: 60px;
+  border: 2px solid whitesmoke;
+  border-radius: 15%;
+  text-align: center;
+  left: 12%;
+  top: 90%;
+  padding-top: 5px;
+  font-family: cursive, Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+  box-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+/* ACCES CV */
+
+#moncv {
+  position: absolute;
+  border: 2px solid whitesmoke;
+  background-color: rgb(3, 7, 12);
+  border-radius: 10px;
+  left: 90%;
+  top: 12%;
+  font-family: cursive, Arial, Helvetica, sans-serif;
+  width: 80px;
+  height: 30px;
+  text-align: center;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+  box-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+/*SCORE / ET STYLE SCORE1*/
+
+#score {
+  position: absolute;
+  left: 69.2%;
+  top: 17%;
+  font-family: cursive, Arial, Helvetica, sans-serif;
+  border: 2px solid whitesmoke;
+  border-radius: 15px;
+  text-align: center;
+  width: 80px;
+  background-color: rgb(3, 7, 12);
+  color: blanchedalmond;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+  box-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+
+}
+
+#score1 {
+  position: absolute;
+  left: 69%;
+  top: 13%;
+  font-family: cursive, Arial, Helvetica, sans-serif;
+  border: 2px solid whitesmoke;
+  border-radius: 15px;
+  text-align: center;
+  width: 80px;
+  background-color: rgb(3, 7, 12);
+  color: blanchedalmond;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+  box-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+
+}
+
+/*MES DIFFERENTS CONTACT*/
+
+#contact {
+  position: absolute;
+  border: 2px solid whitesmoke;
+  background-color: rgb(3, 7, 12);
+  border-radius: 10px;
+  font-family: cursive, Arial, Helvetica, sans-serif;
+  width: 80px;
+  height: 30px;
+  text-align: center;
+  top: 12%;
+  left: 50%;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+  box-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+
+}
+
+/* ROCHER ET BARRIERE TRAVAUX */
+
 #rocher {
   position: absolute;
   left: 0%;
@@ -74,7 +166,7 @@ body {
   display: none;
 }
 
-/*----------------------------------------VOITURE ROUGE-------------------------------------*/
+/* VOITURE ROUGE */
 
 #vVoitureMoi {
   display: none;
@@ -84,7 +176,8 @@ body {
   display: none;
 }
 
-/*------------------------------------------ ANIMATION VOITURE BLEU 1 GAUCHE ---------------------------------------*/
+/* VOITURE BLEU 1 GAUCHE */
+
 #vVoitureBleu1 {
   display: none;
   position: absolute;
@@ -92,7 +185,7 @@ body {
   top: -600px
 }
 
-/*------------------------------------------ ANIMATION VOITURE BLEU 2 DROITE ---------------------------------------*/
+/* VOITURE BLEU 2 DROITE */
 
 #vVoitureBleu2 {
   display: none;
@@ -101,7 +194,7 @@ body {
   top: -1200px;
 }
 
-/*------------------------------------------ ANIMATION VOITURE  BLEU 2 DROITE ---------------------------------------*/
+/*VOITURE  BLEU 3 MILIEU */
 
 #vVoitureBleu3 {
   display: none;
@@ -111,31 +204,8 @@ body {
 
 }
 
-/*------------------------------------------BOUTON START----------------------------------*/
+/*YOUWIN / YOULOSE*/
 
-#start {
-
-  position: absolute;
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
-  align-items: center;
-  width: 180px;
-  height: 60px;
-  border: 2px solid whitesmoke;
-  border-radius: 15%;
-  text-align: center;
-  left: 12%;
-  top: 90%;
-  padding-top: 5px;
-  font-family: cursive;
-  font-size: 28px;
-  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
-  box-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
-}
-
-
-/*-----------------------------------YOUWIN / YOULOSE---------------------------------*/
 #youwin {
   position: absolute;
   left: 0%;
@@ -152,7 +222,8 @@ body {
 
 }
 
-/*-----------------------BANDEAU NOIR DROITE ECRAN POUR LOGO -----------------------------*/
+/*BANDEAU NOIR DROITE ECRAN POUR AFFICHAGE LOGOS*/
+
 #barrelogos {
   position: absolute;
   width: 1220px;
@@ -165,7 +236,8 @@ body {
   ;
 
 }
-/*-------------------------------BANDEAU DE COMPETENCES----------------------------*/
+
+/*BANDEAU DE COMPETENCES AU DESSU BANDEAU NOIR*/
 
 #competences {
   position: absolute;
@@ -181,7 +253,7 @@ body {
   box-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
 }
 
-/*---------------------------------------------BOUTTON RESTART-------------------------------------------------*/
+/*BOUTTON RESTART*/
 
 #bouttonRestart {
   position: absolute;
@@ -190,7 +262,7 @@ body {
   border: 2px solid whitesmoke;
   background-color: rgb(3, 7, 12);
   border-radius: 10px;
-  font-family: cursive;
+  font-family: cursive, Arial, Helvetica, sans-serif;
   width: 80px;
   height: 30px;
   text-align: center;
@@ -199,78 +271,7 @@ body {
   color: whitesmoke;
 }
 
-/*--------------------------------- Les deux bouton pour acces cv et contact----------------------------------------*/
-
-
-#moncv {
-  position: absolute;
-  border: 2px solid whitesmoke;
-  background-color: rgb(3, 7, 12);
-  border-radius: 10px;
-  left: 90%;
-  top: 12%;
-  font-family: cursive;
-  width: 80px;
-  height: 30px;
-  text-align: center;
-  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
-  box-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
-}
-
-/*---------------------------------------------SCORE / et style score-------------------------------------------*/
-
-#score {
-  position: absolute;
-  left: 69.2%;
-  top: 17%;
-  font-family: cursive;
-  border: 2px solid whitesmoke;
-  border-radius: 15px;
-  text-align: center;
-  width: 80px;
-  background-color: rgb(3, 7, 12);
-  color: blanchedalmond;
-  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
-  box-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
-
-}
-
-#score1 {
-  position: absolute;
-  left: 69%;
-  top: 13%;
-  font-family: cursive;
-  border: 2px solid whitesmoke;
-  border-radius: 15px;
-  text-align: center;
-  width: 80px;
-  background-color: rgb(3, 7, 12);
-  color: blanchedalmond;
-  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
-  box-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
-
-}
-
-/*-----------------------------------CONTACT PDF----------------------------*/
-
-#contact {
-  position: absolute;
-  border: 2px solid whitesmoke;
-  background-color: rgb(3, 7, 12);
-  border-radius: 10px;
-  font-family: cursive;
-  width: 80px;
-  height: 30px;
-  text-align: center;
-  top: 12%;
-  left: 50%;
-  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
-  box-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
-
-}
-
-
-/*-------------------- COULEUR ECRITURE CV ET CONTACT ET POINTS-------------------------------*/
+/*COULEUR ECRITURE CV ET CONTACT ET POINTS*/
 
 a {
   color: whitesmoke;
@@ -278,7 +279,7 @@ a {
 
 }
 
-/*---------------------------------LIEN LINKEDIN-----------------------------------*/
+/*LIEN LINKEDIN*/
 
 #linkedin {
   position: absolute;
@@ -286,7 +287,7 @@ a {
   top: 2%;
 }
 
-/*---------------------------LOGOS COMPETENCES PROGRAMMATION--------------------------------*/
+/*LOGOS COMPETENCES PROGRAMMATION*/
 
 #icone1 {
   position: absolute;
