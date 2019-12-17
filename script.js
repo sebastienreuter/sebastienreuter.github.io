@@ -29,7 +29,7 @@ window.addEventListener('load', function () {
 
     var monScore = function () {
         monInterval = setInterval(function () {
-            score += 200;
+            score += 250;
             document.getElementById("score").value = score;
         }, 1500);
     };
@@ -104,7 +104,7 @@ window.addEventListener('load', function () {
 
             clearInterval(monInterval);
 
-            /////////////////////// OUVERTURE DU CV JUSTE APRES LE YOU WIN ///////////////////////////    
+        /////////////////////// OUVERTURE DU CV JUSTE APRES LE YOU WIN ///////////////////////////    
 
             setTimeout(function () {
                 open('img/cvsebastien.jpg');
