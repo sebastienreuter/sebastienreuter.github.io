@@ -1,4 +1,4 @@
-/* FOND D'ECRAN */
+/* FOND JEU */
 
 html,
 body {
@@ -23,7 +23,7 @@ body {
 #myname {
   position: absolute;
   top: -5%;
-  left: 50%;
+  left: 50.2%;
   font-size: 30px;
   width: 1000px;
   font-family: cursive, Arial, Helvetica, sans-serif;
@@ -32,6 +32,7 @@ body {
 
 }
 
+/*REGLES DU JEU*/
 
 #regles {
   position: absolute;
@@ -98,27 +99,30 @@ body {
   box-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
 }
 
-/*SCORE / ET STYLE SCORE1*/
+/*SCORE */
 
 #score {
   position: absolute;
-  left: 69.2%;
-  top: 17%;
-  font-family: cursive, Arial, Helvetica, sans-serif;
+  left: 68.8%;
+  top: 18%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
   border: 2px solid whitesmoke;
-  border-radius: 15px;
+  border-radius: 50%;
   text-align: center;
-  width: 80px;
+  width: 100px;
+  height: 100px;
   background-color: rgb(3, 7, 12);
-  color: blanchedalmond;
+  color: rgb(197, 15, 15);
   text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
   box-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+  display: none;
 
 }
 
 #score1 {
   position: absolute;
-  left: 69%;
+  left: 69.2%;
   top: 13%;
   font-family: cursive, Arial, Helvetica, sans-serif;
   border: 2px solid whitesmoke;
@@ -129,7 +133,7 @@ body {
   color: blanchedalmond;
   text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
   box-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
-
+  display: none;
 }
 
 /*MES DIFFERENTS CONTACT*/
@@ -271,7 +275,7 @@ body {
   color: whitesmoke;
 }
 
-/*COULEUR ECRITURE CV ET CONTACT ET POINTS*/
+/*COULEUR ECRITURE CV ,CONTACT,DEMMARRER*/
 
 a {
   color: whitesmoke;

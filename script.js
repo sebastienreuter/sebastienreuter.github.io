@@ -17,17 +17,19 @@ window.addEventListener('load', function () {
     var comp = document.getElementById('competences');
     var positionVoitureRouge = 295;
     var xRoute = 5;
-    var score = 0;
+    var score = 0 ;
+    var points = document.getElementById('score1');
+    var pointsEnNombre = document.getElementById('score');
     var tailleRoute = 700;
     var tailleVoiture = 125;
     var monInterval;
-
+    var compteARebour = document.getElementById('compteur')
 
     // GESTION DU SCORE
 
     var monScore = function () {
         monInterval = setInterval(function () {
-            score += 200;
+            score += 200 ;
             document.getElementById("score").value = score;
         }, 1500);
     };
@@ -102,7 +104,7 @@ window.addEventListener('load', function () {
 
             clearInterval(monInterval);
 
-        // OUVERTURE DU CV JUSTE APRES LE YOU WIN     
+            // OUVERTURE DU CV JUSTE APRES LE YOU WIN     
 
             setTimeout(function () {
                 open('img/cvsebastien.jpg');
@@ -177,6 +179,8 @@ window.addEventListener('load', function () {
             VoitureBleu2.style.display = 'block';
             VoitureBleu3.style.display = 'block';
             comp.style.display = 'block';
+            points.style.display ='block';
+            pointsEnNombre.style.display = 'block';
             monScore();
         }
 
@@ -257,4 +261,5 @@ window.addEventListener('load', function () {
     };
 
     animate();
+
 });
