@@ -105,7 +105,7 @@ window.addEventListener('load', function () {
         // OUVERTURE DU CV JUSTE APRES LE YOU WIN     
 
             setTimeout(function () {
-                open('img/cvsebastien.png');
+                open('img/cvsebastien.jpg');
 
             }, 1000);
         };
