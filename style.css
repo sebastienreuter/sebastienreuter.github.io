@@ -1,4 +1,4 @@
-/* FOND JEU */
+/****************** FOND JEU *************************/
 
 html,
 body {
@@ -18,7 +18,7 @@ body {
 
 }
 
-/* MON NOM */
+/*************************** MON NOM ***************************/
 
 #myname {
   position: absolute;
@@ -32,7 +32,7 @@ body {
 
 }
 
-/*REGLES DU JEU*/
+/*************************REGLES DU JEU*****************************/
 
 #regles {
   position: absolute;
@@ -42,7 +42,7 @@ body {
   font-family: cursive, Arial, Helvetica, sans-serif;
 }
 
-/* FOND ROUTE ET CADRE FOND ROUTE */
+/****************** FOND ROUTE ET CADRE FOND ROUTE ***************************/
 
 #cadreroute {
   width: 700px;
@@ -60,7 +60,7 @@ body {
 
 }
 
-/*BOUTON START*/
+/*******************************BOUTON START**********************************/
 
 #start {
   position: absolute;
@@ -82,7 +82,7 @@ body {
   box-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
 }
 
-/* ACCES CV */
+/************************** ACCES CV ***********************************/
 
 #moncv {
   position: absolute;
@@ -98,8 +98,25 @@ body {
   text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
   box-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
 }
+/*****************************MES DIFFERENTS CONTACT*****************************/
 
-/*SCORE */
+#contact {
+  position: absolute;
+  border: 2px solid whitesmoke;
+  background-color: rgb(3, 7, 12);
+  border-radius: 10px;
+  font-family: cursive, Arial, Helvetica, sans-serif;
+  width: 80px;
+  height: 30px;
+  text-align: center;
+  top: 12%;
+  left: 50%;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+  box-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+
+}
+
+/*****************************SCORE *************************************/
 
 #score {
   position: absolute;
@@ -136,25 +153,8 @@ body {
   display: none;
 }
 
-/*MES DIFFERENTS CONTACT*/
 
-#contact {
-  position: absolute;
-  border: 2px solid whitesmoke;
-  background-color: rgb(3, 7, 12);
-  border-radius: 10px;
-  font-family: cursive, Arial, Helvetica, sans-serif;
-  width: 80px;
-  height: 30px;
-  text-align: center;
-  top: 12%;
-  left: 50%;
-  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
-  box-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
-
-}
-
-/* ROCHER ET BARRIERE TRAVAUX */
+/************************** ROCHER ET BARRIERE TRAVAUX ***********************************/
 
 #rocher {
   position: absolute;
@@ -170,7 +170,7 @@ body {
   display: none;
 }
 
-/* VOITURE ROUGE */
+/******************************* VOITURE ROUGE ***********************************/
 
 #vVoitureMoi {
   display: none;
@@ -180,7 +180,7 @@ body {
   display: none;
 }
 
-/* VOITURE BLEU 1 GAUCHE */
+/****************************** VOITURE BLEU 1 GAUCHE *************************************/
 
 #vVoitureBleu1 {
   display: none;
@@ -189,7 +189,7 @@ body {
   top: -600px
 }
 
-/* VOITURE BLEU 2 DROITE */
+/*********************************** VOITURE BLEU 2 DROITE**************************/
 
 #vVoitureBleu2 {
   display: none;
@@ -198,7 +198,7 @@ body {
   top: -1200px;
 }
 
-/*VOITURE  BLEU 3 MILIEU */
+/****************************VOITURE  BLEU 3 MILIEU ****************************/
 
 #vVoitureBleu3 {
   display: none;
@@ -208,7 +208,7 @@ body {
 
 }
 
-/*YOUWIN / YOULOSE*/
+/*****************************YOUWIN / YOULOSE*********************************/
 
 #youwin {
   position: absolute;
@@ -226,7 +226,7 @@ body {
 
 }
 
-/*BANDEAU NOIR DROITE ECRAN POUR AFFICHAGE LOGOS*/
+/*****************************BANDEAU NOIR DROITE ECRAN POUR AFFICHAGE LOGOS*************************/
 
 #barrelogos {
   position: absolute;
@@ -241,7 +241,7 @@ body {
 
 }
 
-/*BANDEAU DE COMPETENCES AU DESSU BANDEAU NOIR*/
+/***************************BANDEAU DE COMPETENCES AU DESSU BANDEAU NOIR****************************/
 
 #competences {
   position: absolute;
@@ -257,7 +257,7 @@ body {
   box-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
 }
 
-/*BOUTTON RESTART*/
+/*********************************BOUTTON RESTART********************************/
 
 #bouttonRestart {
   position: absolute;
@@ -275,7 +275,7 @@ body {
   color: whitesmoke;
 }
 
-/*COULEUR ECRITURE CV ,CONTACT,DEMMARRER*/
+/**************************COULEUR ECRITURE CV ,CONTACT,DEMMARRER*****************************/
 
 a {
   color: whitesmoke;
@@ -283,7 +283,7 @@ a {
 
 }
 
-/*LIEN LINKEDIN*/
+/*******************************LIEN LINKEDIN********************************/
 
 #linkedin {
   position: absolute;
@@ -291,7 +291,7 @@ a {
   top: 2%;
 }
 
-/*LOGOS COMPETENCES PROGRAMMATION*/
+/**************************LOGOS COMPETENCES PROGRAMMATION*****************************/
 
 #icone1 {
   position: absolute;
