@@ -11,7 +11,7 @@ body {
 
 body {
 
-  background: url('img/fondperso6.png');
+  background: url('img/fondperso6.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
@@ -225,7 +225,11 @@ body {
   display: none;
 
 }
-
+#compteur{
+  position: absolute;
+  left: 49%;
+  top: 73%;
+}
 /*****************************BANDEAU NOIR DROITE ECRAN POUR AFFICHAGE LOGOS*************************/
 
 #barrelogos {
