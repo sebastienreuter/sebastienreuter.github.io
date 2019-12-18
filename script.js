@@ -11,9 +11,9 @@ window.addEventListener('load', function () {
     var bandeau = document.getElementById('barrelogos');
     var caillou = document.getElementById('rocher');
     var barriere = document.getElementById('travaux');
-    var VoitureBleu1 = document.getElementById('vVoitureBleu1');
-    var VoitureBleu2 = document.getElementById('vVoitureBleu2');
-    var VoitureBleu3 = document.getElementById('vVoitureBleu3');
+    var voitureBleu1 = document.getElementById('vVoitureBleu1');
+    var voitureBleu2 = document.getElementById('vVoitureBleu2');
+    var voitureBleu3 = document.getElementById('vVoitureBleu3');
     var comp = document.getElementById('competences');
     var positionVoitureRouge = 295;
     var xRoute = 5;
@@ -39,7 +39,7 @@ window.addEventListener('load', function () {
     window.requestAnimationFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame ||
         window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
 
-    ///////////////////////////////// ACTION TOUCHES DIRECTIONNELLES////////////////////////////
+    ///////////////////////////////// ACTION TOUCHES DIRECTIONNELLES ET NON SORTIE DU CADRE ROUTE////////////////////////////
 
     var animation = function () {
 
@@ -113,14 +113,15 @@ window.addEventListener('load', function () {
         };
 
         /////////////////////////// COLLISIONS /////////////////////////////////
-
+   
         var coorVoitureRouge = voitureRouge.getBoundingClientRect();
-        var coorVoitureBleu1 = VoitureBleu1.getBoundingClientRect();
-        var coorVoitureBleu2 = VoitureBleu2.getBoundingClientRect();
-        var coorVoitureBleu3 = VoitureBleu3.getBoundingClientRect();
+        var coorVoitureBleu1 = voitureBleu1.getBoundingClientRect();
+        var coorVoitureBleu2 = voitureBleu2.getBoundingClientRect();
+        var coorVoitureBleu3 = voitureBleu3.getBoundingClientRect();
         var coorcaillou = caillou.getBoundingClientRect();
         var coorBarriere = barriere.getBoundingClientRect();
 
+        
         if (coorVoitureRouge.x < coorVoitureBleu1.x + coorVoitureBleu1.width &&
             coorVoitureRouge.x + coorVoitureRouge.width > coorVoitureBleu1.x &&
             coorVoitureRouge.y < coorVoitureBleu1.y + coorVoitureBleu1.height &&
@@ -174,9 +175,9 @@ window.addEventListener('load', function () {
             fenetreDeJeu.style.display = 'block';
             voitureRouge.style.display = 'block';
             bandeau.style.display = 'block';
-            VoitureBleu1.style.display = 'block';
-            VoitureBleu2.style.display = 'block';
-            VoitureBleu3.style.display = 'block';
+            voitureBleu1.style.display = 'block';
+            voitureBleu2.style.display = 'block';
+            voitureBleu3.style.display = 'block';
             comp.style.display = 'block';
             points.style.display = 'block';
             pointsEnNombre.style.display = 'block';
