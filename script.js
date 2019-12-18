@@ -122,30 +122,30 @@ window.addEventListener('load', function () {
         var coorBarriere = barriere.getBoundingClientRect();
 
         
-        if (coorVoitureRouge.x < coorVoitureBleu1.x + coorVoitureBleu1.width &&
-            coorVoitureRouge.x + coorVoitureRouge.width > coorVoitureBleu1.x &&
-            coorVoitureRouge.y < coorVoitureBleu1.y + coorVoitureBleu1.height &&
-            coorVoitureRouge.height + coorVoitureRouge.y > coorVoitureBleu1.y ||
+        if (coorVoitureRouge.left < coorVoitureBleu1.left + coorVoitureBleu1.width &&
+            coorVoitureRouge.left + coorVoitureRouge.width > coorVoitureBleu1.left &&
+            coorVoitureRouge.top < coorVoitureBleu1.top + coorVoitureBleu1.height &&
+            coorVoitureRouge.height + coorVoitureRouge.top > coorVoitureBleu1.top ||
 
-            coorVoitureRouge.x < coorVoitureBleu2.x + coorVoitureBleu2.width &&
-            coorVoitureRouge.x + coorVoitureRouge.width > coorVoitureBleu2.x &&
-            coorVoitureRouge.y < coorVoitureBleu2.y + coorVoitureBleu2.height &&
-            coorVoitureRouge.height + coorVoitureRouge.y > coorVoitureBleu2.y ||
+            coorVoitureRouge.left < coorVoitureBleu2.left + coorVoitureBleu2.width &&
+            coorVoitureRouge.left + coorVoitureRouge.width > coorVoitureBleu2.left &&
+            coorVoitureRouge.top < coorVoitureBleu2.top + coorVoitureBleu2.height &&
+            coorVoitureRouge.height + coorVoitureRouge.top > coorVoitureBleu2.top ||
 
-            coorVoitureRouge.x < coorVoitureBleu3.x + coorVoitureBleu3.width &&
-            coorVoitureRouge.x + coorVoitureRouge.width > coorVoitureBleu3.x &&
-            coorVoitureRouge.y < coorVoitureBleu3.y + coorVoitureBleu3.height &&
-            coorVoitureRouge.height + coorVoitureRouge.y > coorVoitureBleu3.y ||
+            coorVoitureRouge.left < coorVoitureBleu3.left + coorVoitureBleu3.width &&
+            coorVoitureRouge.left + coorVoitureRouge.width > coorVoitureBleu3.left &&
+            coorVoitureRouge.top < coorVoitureBleu3.top + coorVoitureBleu3.height &&
+            coorVoitureRouge.height + coorVoitureRouge.top > coorVoitureBleu3.top ||
 
-            coorVoitureRouge.x < coorcaillou.x + coorcaillou.width &&
-            coorVoitureRouge.x + coorVoitureRouge.width > coorcaillou.x &&
-            coorVoitureRouge.y < coorcaillou.y + coorcaillou.height &&
-            coorVoitureRouge.height + coorVoitureRouge.y > coorcaillou.y ||
+            coorVoitureRouge.left < coorcaillou.left + coorcaillou.width &&
+            coorVoitureRouge.left + coorVoitureRouge.width > coorcaillou.left &&
+            coorVoitureRouge.top < coorcaillou.top + coorcaillou.height &&
+            coorVoitureRouge.height + coorVoitureRouge.top > coorcaillou.top ||
 
-            coorVoitureRouge.x < coorBarriere.x + coorBarriere.width &&
-            coorVoitureRouge.x + coorVoitureRouge.width > coorBarriere.x &&
-            coorVoitureRouge.y < coorBarriere.y + coorBarriere.height &&
-            coorVoitureRouge.height + coorVoitureRouge.y > coorBarriere.y
+            coorVoitureRouge.left < coorBarriere.left + coorBarriere.width &&
+            coorVoitureRouge.left + coorVoitureRouge.width > coorBarriere.left &&
+            coorVoitureRouge.top < coorBarriere.top + coorBarriere.height &&
+            coorVoitureRouge.height + coorVoitureRouge.top > coorBarriere.top
 
 
         ) {
