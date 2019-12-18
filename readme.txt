@@ -1,1 +1,1 @@
-//merci d'activer le son avant lancement du jeu merci. et bonne partie .
+//Si vous le souhaitez vous pouvez activer le son avant lancement du jeu merci. et bonne partie .
